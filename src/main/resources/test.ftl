@@ -14,6 +14,14 @@ ${name},你好。${message}<br>
   您已通过实名认证
  <#else >
   您未通过实名认证
-</#if>
+</#if><br>
+
+<#--商品列表-->
+<#list goodsList as goods >
+    商品名称：${goods.name}  商品价格:${goods.price}<br>
+
+</#list>
+
+
 </body>
 </html>
