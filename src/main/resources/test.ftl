@@ -21,7 +21,7 @@ ${name},你好。${message}<br>
    ${goods_index+1} 商品名称：${goods.name}  商品价格:${goods.price}<br>
 
 </#list>
-
+一共${goodsList?size}条记录
 
 </body>
 </html>
