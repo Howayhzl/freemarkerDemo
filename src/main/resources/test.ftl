@@ -30,6 +30,6 @@ ${name},你好。${message}<br>
 当前日期：${today?date}<br>
 当前时间：${today?time}<br>
 当前日期+时间：${today?datetime}<br>
-
+日期格式化：  ${today?string("yyyy年MM月")}
 </body>
 </html>
