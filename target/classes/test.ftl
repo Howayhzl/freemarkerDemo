@@ -21,7 +21,10 @@ ${name},你好。${message}<br>
    ${goods_index+1} 商品名称：${goods.name}  商品价格:${goods.price}<br>
 
 </#list>
+一共${goodsList?size}条记录<br>
 
-
+<#assign text="{'bank':'工商银行','account':'123354654756766'}">
+<#assign data=text?eval>
+开户行：${data.bank} 账号:${data.account}<br>
 </body>
 </html>
