@@ -40,7 +40,11 @@ ${name},你好。${message}<br>
         aaa变量不存在
 </#if><br>
 
-${bbb!'bbb没有被赋值'}
+${bbb!'bbb没有被赋值'}<br>
+
+<#if point gt 100 >
+    黄金会员
+</#if>
 
 
 </body>
