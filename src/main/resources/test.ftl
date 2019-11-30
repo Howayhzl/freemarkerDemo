@@ -4,6 +4,7 @@
  <title>Freemarker入门小DEMO </title>
 </head>
 <body>
+<#include "head.ftl">
 <#--我是一个注释，不会输出-->
 <!--html注释-->
 ${name},你好。${message}<br>
