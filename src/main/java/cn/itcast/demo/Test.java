@@ -8,10 +8,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) throws IOException, TemplateException {
@@ -43,6 +40,8 @@ public class Test {
         goodsList.add(goods2);
         goodsList.add(goods3);
         map.put("goodsList", goodsList);
+
+        map.put("today",new Date());
 
 
         //6.创建一个输出流对象

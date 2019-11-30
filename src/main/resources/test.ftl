@@ -26,5 +26,10 @@ ${name},你好。${message}<br>
 <#assign text="{'bank':'工商银行','account':'123354654756766'}">
 <#assign data=text?eval>
 开户行：${data.bank} 账号:${data.account}<br>
+
+当前日期：${today?date}<br>
+当前时间：${today?time}<br>
+当前日期+时间：${today?datetime}<br>
+
 </body>
 </html>
