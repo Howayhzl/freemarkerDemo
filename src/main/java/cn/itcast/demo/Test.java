@@ -42,6 +42,7 @@ public class Test {
         map.put("goodsList", goodsList);
 
         map.put("today",new Date());
+        map.put("point",13454356);
 
 
         //6.创建一个输出流对象
