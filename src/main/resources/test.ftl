@@ -9,6 +9,11 @@
 <!--html注释-->
 ${name},你好。${message}<br>
 <#assign linkman="周先生">
-联系人:${linkman}
+联系人:${linkman}<br>
+<#if success=true>
+  您已通过实名认证
+ <#else >
+  您未通过实名认证
+</#if>
 </body>
 </html>
