@@ -32,6 +32,16 @@ ${name},你好。${message}<br>
 当前日期+时间：${today?datetime}<br>
 日期格式化：  ${today?string("yyyy年MM月")}<br>
 
-累计积分：${point?c}
+累计积分：${point?c}<br>
+
+<#if aaa??>
+    aaa变量存在${aaa}
+    <#else >
+        aaa变量不存在
+</#if><br>
+
+${bbb!'bbb没有被赋值'}
+
+
 </body>
 </html>
