@@ -1,7 +1,7 @@
 <html>
 <head>
-<title>demo</title>
  <meta charset="utf-8">
+ <title>Freemarker入门小DEMO </title>
 </head>
 <body>
 <#--我是一个注释，不会输出-->
